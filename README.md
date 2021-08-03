@@ -50,52 +50,10 @@ The app needs a README.md explaining the app and steps to run it locally
 Script or Rails app (see Bonus) for manual testing the implementation
 
 Bonus
-Rails app for testing out the solution
-React for the interface
 
-Things you may want to cover:
-
-* Ruby version
-
-=> ruby 2.6.5p114 (2019-10-01 revision 67812) [x86_64-linux]
-=> Rails 5.2.4.2
-
-* System dependencies
-
-* Configuration
- 
-* Database creation
-
-type 'rails db:create db:migrate'
-  
-* Database initialization
-N/A
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Run instructions
-
-type 'bundle install'
-type 'rails db:create db:migrate'
-'rails s -b 0.0.0.0'
-
-* ...
-
-## Some further notes
-
-The best seat will be provided follow the instruction, which is closest to the front & middle.
-
-If performing group of seats close of each other:
--A "number_of_seats" key must be provided and its value with numbers of seats desired;
--In absense of this parameter, a single seat is provided.
-
-For Run the Automated test, you must exec:
-
-'rspec ./spec/controllers/v1/best_seat_controller_spec.rb' 
-
-Bonus
-
-if Closest to corridor is considered better than rows more in the front but away from middle position, then:
--A "priority" key must be provided with the value '1' as number;
--In absense of this parameter, the default priority is the best open group of seats together. 
+Rails app for testing out the solution 
+React for the interface 
+Movie catalog 
+CRUD using Ruby on Rails 
+A movie must have a title, summary, year and genre, with optional IMDb link. The app must allow inserting movies and listing movies. Optional: edit/remove. There's no login requirement 
+The app must be in GitHub with a README.md explaining the app and steps to run it locally Bonus point: deploy the app to Heroku
